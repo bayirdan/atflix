@@ -1,0 +1,49 @@
+.dark-mode {
+  width: 4rem;
+  position: relative;
+  color: var(--text-secondary);
+  background-color: var(--soft);
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  margin: 0 0.5rem;
+  box-shadow: 0 2px 2px rgba($color: #000000, $alpha: 0.3) inset;
+  transition: 0.3s;
+  overflow: hidden;
+
+  #darkMode {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+  }
+
+  #darkMode:checked + label .ball {
+    transform: translateX(-2.2rem);
+  }
+
+  label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0.4rem;
+
+    .ball {
+      position: absolute;
+      right: 0.2rem;
+      width: 1.4rem;
+      height: 1.4rem;
+      border-radius: 999px;
+      background-color: #fff;
+      transition: 0.5s cubic-bezier(0.37, -0.37, 0.54, 1.26);
+    }
+
+    .dark-mode-icon {
+      font-size: 1rem;
+    }
+  }
+}
