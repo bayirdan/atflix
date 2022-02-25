@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/atflix-react/static/css/main.9c58e330.css",
+    "main.js": "/atflix-react/static/js/main.8987a287.js",
+    "static/media/movie.jpg": "/atflix-react/static/media/movie.afe779986585b34f43f7.jpg",
+    "static/media/game.ttf": "/atflix-react/static/media/game.71fa190a8a1a34123fa1.ttf",
+    "index.html": "/atflix-react/index.html",
+    "main.9c58e330.css.map": "/atflix-react/static/css/main.9c58e330.css.map",
+    "main.8987a287.js.map": "/atflix-react/static/js/main.8987a287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c58e330.css",
+    "static/js/main.8987a287.js"
+  ]
+}
